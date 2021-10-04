@@ -1,11 +1,12 @@
 import React from 'react';
 import "./home.scss";
 
-import { Navbar } from '../../components';
+import { Featured, Navbar } from '../../components';
 const Home:React.FC = () => {
     return (
         <div className="home">
             <Navbar/>
+            <Featured />
         </div>
     )
 }
